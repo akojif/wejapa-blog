@@ -3,19 +3,17 @@
     <router-view>
       <blog></blog>
       </router-view>
-      <Footer></Footer>
   </div>
 </template>
 
 <script>
 import blog from './components/Home.vue'
-import footer from './components/Footer.vue'
+
 
 export default {
   name: 'App',
   components: {
     'blog': blog,
-    footer,
   }
 }
 </script>
