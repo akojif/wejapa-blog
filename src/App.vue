@@ -3,7 +3,7 @@
     <router-view>
       <blog></blog>
       </router-view>
-      <Footer/>
+      <Footer></Footer>
   </div>
 </template>
 
